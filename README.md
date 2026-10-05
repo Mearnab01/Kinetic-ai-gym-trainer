@@ -1,5 +1,16 @@
 # Kinetic — React + FastAPI Migration
 
+🔗 **Kinetic AI Gym — Project Links**
+🌐 **Live Demo:**  
+[![https://kinetic-ai-gym-trainer-by-arnab.onrender.com/](https://kinetic-ai-gym-trainer-by-arnab.onrender.com/)]
+
+💻 **GitHub Repository:**  
+[![https://github.com/Mearnab01/Kinetic-ai-gym-trainer](https://github.com/Mearnab01/Kinetic-ai-gym-trainer)]
+
+🤗 **Hugging Face Backend:**  
+[![https://huggingface.co/spaces/Thunder421/kinetic-backend/tree/main](https://huggingface.co/spaces/Thunder421/kinetic-backend/tree/main)]
+
+
 This documents the migration of Kinetic's Streamlit UI to a React frontend,
 with face-unlock authentication adapted from the SnapClass biometric
 attendance project.
@@ -119,7 +130,7 @@ npm run dev
   original `detect_for_video()` mode — logically equivalent per-frame, but
   worth a manual pass with real footage before you demo it.
 
-## Resume / LinkedIn bullets
+## Changes
 
 - Migrated a Streamlit computer-vision fitness app to a production-style
   React + FastAPI architecture, replacing in-process video callbacks with a
